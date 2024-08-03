@@ -5,6 +5,7 @@ import Home from "./components/Home"
 import Foot from "./components/Foot"
 import UseReducer from "./Hooks/UseReducer"
 import UseLocalStorage from "./Hooks/UseLocalStorage"
+import UseMemo from "./Hooks/UseMemo"
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       {/* this is for UseContext */}
       {/* <Home/> */}
       {/* <Foot/> */}
-      
+
       {/* <UseReducer/> */}
 
       <input 
@@ -31,6 +32,8 @@ function App() {
           onChange={(e)=>{setname(e.target.value)}}
           />
       <h1> Hello,{name}</h1>
+
+      <UseMemo/>
 
 
     </div>
