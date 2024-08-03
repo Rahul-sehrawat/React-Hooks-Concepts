@@ -6,6 +6,7 @@ import Foot from "./components/Foot"
 import UseReducer from "./Hooks/UseReducer"
 import UseLocalStorage from "./Hooks/UseLocalStorage"
 import UseMemo from "./Hooks/UseMemo"
+import UseLayoutEffect from "./Hooks/UseLayoutEffect"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
       <UseMemo/>
 
+      <UseLayoutEffect/>
 
     </div>
   )
