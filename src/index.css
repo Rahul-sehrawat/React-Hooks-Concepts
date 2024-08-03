@@ -18,6 +18,8 @@
 }
 
 button{
-  width: 50px;
+  width: 100px;
   margin: 2rem;
+  background: #2167a4;
+  color: black;
 }
