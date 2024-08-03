@@ -3,6 +3,7 @@ import UseEffectExample from "./Hooks/UseEffectExample"
 import UseRefExample from "./Hooks/UseRefExample"
 import Home from "./components/Home"
 import Foot from "./components/Foot"
+import UseReducer from "./Hooks/UseReducer"
 
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
       {/* <UseEffectExample/> */}
       {/* <UseRefExample/> */}
 
-      <Home/>
-      <Foot/>
+      {/* <Home/> */}
+      {/* <Foot/> */}
+
+      <UseReducer/>
 
 
 
