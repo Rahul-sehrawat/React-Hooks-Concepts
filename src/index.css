@@ -15,11 +15,19 @@
 
 .container{
   text-align: center;
+  margin: 10px;
+}
+
+.container>div{
+  margin: 10px;
+  border: 4px outset rgb(204, 154, 154);
+
 }
 
 button{
   width: 100px;
-  margin: 2rem;
-  background: #2167a4;
+  height: 30px;
+  margin: 10px;
+  background: #569ebd;
   color: black;
 }

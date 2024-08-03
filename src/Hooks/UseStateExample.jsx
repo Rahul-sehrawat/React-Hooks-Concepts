@@ -15,7 +15,6 @@ function UseStateExample() {
           return {...prev , study :"Full stack dev"}
         })
           
-      
     }
 
   return (

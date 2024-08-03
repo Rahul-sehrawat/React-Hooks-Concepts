@@ -16,27 +16,26 @@ function App() {
 
   return(
     <div className="container">
-      {/* <UseStateExample/> */}
-      {/* <UseEffectExample/> */}
-      {/* <UseRefExample/> */}
+        <div> <h1>UseState Example : </h1> <UseStateExample/> </div>
+        <div> <h1>UseEffect Example : </h1> <UseEffectExample/> </div>
+        <div> <h1>UseRef Example : </h1> <UseRefExample/> </div>
+        <div> <h1>UseContext Example : </h1> <Home/> <Foot/> </div>
+        <div> <h1>UseReducer Example : </h1> <UseReducer/> </div>
 
-      {/* this is for UseContext */}
-      {/* <Home/> */}
-      {/* <Foot/> */}
-
-      {/* <UseReducer/> */}
-
-      <input 
-          type="text" 
-          placeholder="Enter your name"
-          value={name}
-          onChange={(e)=>{setname(e.target.value)}}
-          />
-      <h1> Hello,{name}</h1>
-
-      <UseMemo/>
-
-      <UseLayoutEffect/>
+        <div>
+            <h1>Custom Hook Example : </h1>
+            <input 
+                    type="text" 
+                    placeholder="Enter your name"
+                    value={name}
+                    onChange={(e)=>{setname(e.target.value)}}
+              />
+            <h1> Hello,{name}</h1>
+        </div>
+      
+      <div><h1>UseMemo Example : </h1> <UseMemo/></div>
+      <div><h1>UseLayoutEffect Example : </h1> <UseLayoutEffect/></div>
+      
 
     </div>
   )
